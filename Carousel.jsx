@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-// import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
-
-
 
 export const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0);
